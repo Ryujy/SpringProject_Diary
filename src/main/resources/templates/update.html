@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>update</title>
+    <link rel = "stylesheet" href="crud.css">
+</head>
+<body>
+<div class = "wrapper">
+    <div class = "one">
+        <img src="/img/상단프로필동그라미.png" width="50" height="50">
+    </div>
+    <div class = "two">
+        상단여백
+    </div>
+    <div class = "three">
+        <div class = "menu">
+            <div class = "save">수정 완료</div>
+            <div class = "delete">삭제</div>
+        </div>
+    </div>
+    <div class="four"></div>
+    <div class = "five">
+        <div class = "get_photo">
+<!--            사진 클릭하면 사진 변경 가능하도록 기능 구현 필요-->
+            <img src="/img/샘플이미지.png" width="70%">
+        </div>
+        <div class = "choice">
+            <div class="datetime">시간날짜 <img src="/img/달력이미지.png" width="25px"> </div>
+            <div class="tag">장소나 감정 태그?</div>
+        </div>
+        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>형식설정</option>
+            <option value="1">자유형식</option>
+            <option value="2">문답형식</option>
+        </select>
+        <div>
+            <form action="" method="post" id="write">
+                <input type="text" name="title" class="title" value="제목을 입력하세요." maxlength="20">
+                <textarea name="contents" ></textarea>
+            </form>
+
+        </div>
+    </div>
+    <div class="six"></div>
+</div>
+</body>
+</html>

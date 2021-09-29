@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>detail</title>
+    <link rel = "stylesheet" href="crud.css">
+</head>
+<body>
+<div class = "wrapper">
+    <div class = "one">
+
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="/img/상단프로필동그라미.png" width="50" height="50">
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class = "two">
+        상단여백
+    </div>
+    <div class = "three">
+        <div class = "menu">
+            <div class = "update"><a href="update.html">수정</a> </div>
+            <div class = "delete">삭제</div>
+            <div class = "create"><a href="create.html">새 글 작성</a> </div>
+        </div>
+    </div>
+    <div class="four"></div>
+    <div class = "five">
+            <div class = "get_photo">
+                <img src="/img/샘플이미지.png" width="70%">
+            </div>
+        <div class = "choice">
+            <div class="datetime">시간날짜</div>
+            <div class="tag">장소나 감정 태그?</div>
+        </div>
+        <div>
+            <form action="" method="post" id="write">
+                <input type="text" name="title" class="title" placeholder="글 데이터 받아올 곳" maxlength="20">
+                <textarea name="contents" ></textarea>
+            </form>
+
+        </div>
+    </div>
+    <div class="six"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
