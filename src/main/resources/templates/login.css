@@ -1,0 +1,29 @@
+.signUp_text{
+		padding: 5px 10px;
+	background-color: #3D4F99;
+	text-align: right;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+    color: white;
+    font-size:28px;
+
+	}
+.btn{
+    background-color:#3D4F99;
+    outline:0;
+    border:0;
+    color:white;
+    cursor:pointer;
+font-size:17px; 
+padding:20px 10px;}
+
+input::-webkit-input-placeholder {color:white;
+}
+.oneOne{}
+.oneTwo{}
+.oneThree{}
+.twoOne{}
+.twoTwo{}
+.twoThree{}

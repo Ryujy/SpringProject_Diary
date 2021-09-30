@@ -12,4 +12,4 @@ public class DiaryApplication {
 
 }
 
-//setting finish 화이팅!
+//setting finish 화이팅!W
