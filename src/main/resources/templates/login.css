@@ -27,3 +27,9 @@ input::-webkit-input-placeholder {color:white;
 .twoOne{}
 .twoTwo{}
 .twoThree{}
+
+body {
+	margin : 25px 30px;
+	background-image: url("/img/색깔1.jpg");
+	background-size: cover;
+	background-attachment: fixed;}
