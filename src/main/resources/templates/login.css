@@ -1,9 +1,9 @@
 .signUp_text{
 		padding: 5px 10px;
-	background-color: #3D4F99;
+	background-color: transparent;
 	text-align: right;
 	position: absolute;
-	top: 25%;
+	top: 50%;
 	left: 50%;
 	transform: translate( -50%, -50% );
     color: white;
@@ -11,7 +11,7 @@
 
 	}
 .btn{
-    background-color:#3D4F99;
+    background-color:transparent;
     outline:0;
     border:0;
     color:white;
